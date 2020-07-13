@@ -1,0 +1,19 @@
+{
+  "entity": {
+    "attributes": {
+      "owner": "admin",
+      "ownerName": "admin",
+      "name": "person",
+      "db": {
+        "guid": "4d085828-3192-4877-a108-dbde0a31a781",
+        "typeName": "rdbms_db"
+      },
+      "qualifiedName": "default.peresoncluster_test2",
+      "description": "person table",
+      "replicatedTo": null,
+      "replicatedFrom": null
+    },
+    "typeName": "rdbms_table",
+    "status": "ACTIVE"
+  }
+}

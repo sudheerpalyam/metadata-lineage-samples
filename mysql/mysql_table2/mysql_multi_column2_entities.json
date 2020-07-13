@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "attributes": {
+        "owner": "admin",
+        "ownerName": "admin",
+        "name": "firstname",
+        "qualifiedName": "default.person.firstname@cluster_test2",
+        "default_value": null,
+        "isPrimaryKey": false,
+        "indexes": [],
+        "isNullable": false,
+        "data_type": "string",
+        "comment": "person name",
+        "table": {
+          "guid": "9de968b3-9212-4e56-8439-c20bfd4b6e65",
+          "typeName": "rdbms_table"
+        }
+      },
+      "typeName": "rdbms_column",
+      "status": "ACTIVE"
+    },
+    {
+      "attributes": {
+        "owner": "admin",
+        "ownerName": "admin",
+        "name": "salary",
+        "qualifiedName": "default.person.salary@cluster_test2",
+        "default_value": null,
+        "isPrimaryKey": false,
+        "indexes": [],
+        "isNullable": false,
+        "data_type": "integer",
+        "comment": "person salary",
+        "table": {
+          "guid": "9de968b3-9212-4e56-8439-c20bfd4b6e65",
+          "typeName": "rdbms_table"
+        }
+      },
+      "typeName": "rdbms_column",
+      "status": "ACTIVE"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "entity": {
+    "attributes": {
+      "owner": "admin",
+      "ownerName": "admin",
+      "name": "default",
+      "displayText": "default DB",
+      "qualifiedName": "default@cluster_test2",
+      "description": "DB description",
+      "instance": {
+        "guid": "6796527d-76f0-4635-9ebe-aabb0c877d00",
+        "typeName": "rdbms_instance",
+        "entityStatus": "ACTIVE"
+      }
+    },
+    "typeName": "rdbms_db",
+    "status": "ACTIVE"
+  }
+}

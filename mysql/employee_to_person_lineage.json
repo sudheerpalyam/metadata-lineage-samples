@@ -1,0 +1,42 @@
+{
+  "entity": {
+    "typeName": "python_script",
+    "createdBy": "sudheers_system",
+    "attributes": {
+      "qualifiedName": "employee:to:person",
+      "uri": "employee:to:person",
+      "name": "employee:to:person",
+      "description": "person table conversion from employee table ",
+      "run_user":"pyuser",
+      "server":{
+        "guid": -100,"typeName": "server"
+      },
+      "inputs": [
+        {
+          "guid": "924ec7c5-f4d9-431a-acfa-31aa16756221",
+          "typeName": "rdbms_table"
+        }
+      ],
+      "outputs": [
+        {
+          "guid": "9de968b3-9212-4e56-8439-c20bfd4b6e65","typeName": "rdbms_table"
+        }
+      ]
+    }
+  },
+  "referredEntities": {
+    "-100": {
+      "guid": "-100",
+      "typeName": "server",
+      "attributes": {
+        "qualifiedName": "landing_zone_server_1@dev",
+        "uri": "landing_zone_server_1@dev",
+        "name": "landing_zone_server_1",
+        "dns_name": "pluto",
+        "ip_address": "10.71.68.93"
+      }
+    }
+  }
+}
+
+
